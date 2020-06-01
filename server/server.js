@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 //this is the middleware/comparison/authenticatoin function
 let auth = (req,res,next)=>{
     let allHeadres = req.headers;
-    if(allHeadres.token == "nareshit"){
+    if(allHeadres.token == "golaugh"){
         next();
     }
     else{
